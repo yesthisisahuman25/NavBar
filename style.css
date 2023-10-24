@@ -1,0 +1,34 @@
+body {
+    background-color: wheat;
+    color: brown;
+}
+/* Styling the list of items in the nav bar */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+/* Styling the space of each item */
+nav li {
+    list-style: none;
+    background-color: brown;
+    color: wheat;
+    margin: 0;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    display: flex;
+}
+/* Styling the link, both unvisited and visited */
+nav a, nav a:visited {
+    text-decoration: none;
+    width:100%;
+    padding: 8px 0px;
+    color: wheat;
+}
+/*Hovering over a link*/
+nav a:hover a.active {
+    color: brown;
+    background-color: rgb(173, 230, 180);
+}
